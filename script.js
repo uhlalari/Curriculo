@@ -8,9 +8,9 @@ function controleMenu(botao, aparece) {
 function manipularBotão(botao) {
     botoes = document.getElementById('article_menu');
     for (let index = 0; index < botoes.children.length; index++) {
-        botoes.children[index].style.backgroundColor = null
+        botoes.children[index].style.color = null
     }
-    botao.style.backgroundColor = "green";
+    botao.style.color = "orange";
 }
 
 function manipularSessao(article){
